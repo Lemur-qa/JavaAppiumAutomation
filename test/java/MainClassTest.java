@@ -10,16 +10,11 @@ public class MainClassTest {
         int result = mainClass.getLocalNumber();
         Assert.assertEquals(result, 14);
     }
-    private  void assertFail()
-    {
-        Assert.fail("This message will be printed");
-    }
     @Test
     public void testGetClassNumber()
     {
         MainClass mainClass = new MainClass();
         int result = mainClass.getClassNumber();
-        Assert.assertTrue("Error, number is too high", result < 45);
         Assert.assertTrue("Error, number is too low",result > 45);
     }
 }
