@@ -10,8 +10,4 @@ public class MainClassTest {
             int result = mainClass.getLocalNumber();
             Assert.assertEquals(result, 14);
     }
-    private  void assertFail()
-    {
-        Assert.fail("This message will be printed");
-    }
 }
