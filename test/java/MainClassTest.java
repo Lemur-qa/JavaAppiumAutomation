@@ -8,6 +8,10 @@ public class MainClassTest {
         {
             MainClass mainClass = new MainClass();
             int result = mainClass.getLocalNumber();
-            Assert.assertEquals(result, 4);
+            Assert.assertEquals(result, 14);
+    }
+    private  void assertFail()
+    {
+        Assert.fail("This message will be printed");
     }
 }
