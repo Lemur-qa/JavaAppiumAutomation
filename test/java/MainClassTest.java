@@ -19,7 +19,6 @@ public class MainClassTest {
     {
         MainClass mainClass = new MainClass();
         int result = mainClass.getClassNumber();
-        Assert.assertTrue("Error, number is too high", result < 45);
         Assert.assertTrue("Error, number is too low",result > 45);
     }
 }
