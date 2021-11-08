@@ -11,4 +11,9 @@ public class MainClass
     {
         return class_number;
     }
+    private String class_string = "Hello World!";
+    public String getClassString()
+    {
+        return class_string;
+    }
 }
